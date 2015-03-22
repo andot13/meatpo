@@ -55,6 +55,10 @@
   text-transform: uppercase;
   letter-spacing: 2px;
   padding: 14px 20px;
+  transition: background .5s;
+}
+.btn-primary:hover {
+  background: #00aeef;
 }
 .btn-secondary {
   border: 2px solid #ffffff;
@@ -81,6 +85,8 @@
 }
 .header-logo {
   background: url("../images/optim2-logo.png") no-repeat;
+  position: relative;
+  top: 6px;
   width: 162px;
   height: 38px;
   display: block;
@@ -135,7 +141,6 @@
   text-align: center;
   padding: 0 0 30px 0;
   margin: 0;
-  border-bottom: 1px solid #e0e0e0;
 }
 .section-header span {
   text-transform: none;
@@ -199,19 +204,33 @@
   padding: 10px 50px;
 }
 .section-experience {
-  padding: 80px 0;
+  padding: 40px 0;
 }
 .section-experience h2 {
   text-align: center;
-  font-size: 14pt;
+  font-size: 15pt;
   color: #262262;
 }
 .section-experience p {
   text-align: center;
   color: #647484;
 }
-.section-experience .test {
-  padding: 20px 0;
+.section-experience .experience-container {
+  padding: 20px 60px;
+}
+.section-experience .experience-container h2 {
+  margin-bottom: 2px;
+}
+.section-experience .experience-text {
+  font-size: 14pt;
+}
+.section-experience .experience-tag {
+  font-size: 12pt;
+  color: #00aeef;
+}
+.section-experience .experience-detail-text {
+  color: #647484;
+  font-size: 10pt;
 }
 /*==========  Footer  ==========*/
 .footer {

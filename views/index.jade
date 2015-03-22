@@ -1,5 +1,101 @@
 extends layout
 
 block content
-  h1= title
-  p Welcome to #{title}
+	div.jumbotron#homepage
+		div.container
+			div.col-lg-7
+				h1 Who is 
+					span.word optim2?
+				h2
+					| optim2 is a management consultancy focused solely on Financial operations, and the agenda of the CFO. 
+				p
+					a.btn.btn-primary.btn-lg(role='button') Learn more about us &raquo; 
+					a.btn.btn-secondary.btn-lg(role='button') Contact us 
+	div.container-fluid
+		div.row
+			div.col-lg-12
+				h1.section-header 
+					span.word optim
+						span.two 2 
+					| Services
+		div.row.services-container
+			div.col-lg-3
+				div.col-lg-2
+					img(src="../images/services-icon-finance.png")
+				div.col-lg-10
+					h2 Finance assessment & transformation
+				p An assessment of your Finance organisation provides the opportunity to review the current operating model, identify gaps for improvement, and develop a roadmap for the future that is aligned with your strategic objectives.
+				a(href="") Learn more
+			div.col-lg-3
+				div.col-lg-2
+					img(src="../images/services-icon-improvement.png")
+				div.col-lg-10
+					h2 Finance process improvement/re-design
+				p Improving Finance processes not only provides the opportunity for improved efficiency and effectiveness, but also can improve Finance service delivery and business partnering through quality enhancements.
+				a(href="") Learn more
+			div.col-lg-3
+				div.col-lg-2
+					img(src="../images/services-icon-performance.png")
+				div.col-lg-10
+					h2 Performance measurement of Finance
+				p optim2 have significant experience in the development of Finance operational reports. These reports provide the basis to monitor the performance of the Finance team, including tracking over time. 
+				a(href="") Learn more
+			div.col-lg-3
+				div.col-lg-2
+					img(src="../images/services-icon-accounting.png")
+				div.col-lg-10
+					h2 Accounting BPO
+				p Today, small to medium enterprises are increasingly embracing outsourcing across back office processes to help transform their businesses and drive growth and innovation. 
+				a(href="") Learn more
+	div.divider
+	div.section-experience
+		div.container-fluid
+			div.row
+				div.col-lg-12.text-center
+					h1.section-header The 
+						span.word optim
+							span.two 2 
+						|difference
+				div.col-lg-8.col-lg-offset-2.text-center
+					p.experience-text optim2 was founded by a team of consultants with backgrounds from the Big Four and other global management consultancies. The optim2 difference is as follows:
+			div.row
+				div.col-lg-4.experience-container
+					img.img-responsive.center-block(src="../images/icon-focus.png")
+					h2 Focus
+					p.experience-tag This is all we do
+					p.experience-detail-text We only consult on the Finance organisation, and will rapidly identify practical recommendations that succeed
+				div.col-lg-4.experience-container
+					img.img-responsive.center-block(src="../images/icon-experience.png")
+					h2 Experience
+					p.experience-tag No junior accountants
+					p.experience-detail-text Our team has a minimum ten years experience, so you don't pay for us to learn - we ask the right questions the first time. 
+				div.col-lg-4.experience-container
+					img.img-responsive.center-block(src="../images/icon-detail.png")
+					h2 Detail
+					p.experience-tag PowerPoint is not a deliverable
+					p.experience-detail-text Our deliverables are not "one size fits all solutions", and we dont' consult by PowerPoint - clients deserve more detail. 
+			div.row
+				div.col-lg-4.experience-container
+					img.img-responsive.center-block(src="../images/icon-track.png")
+					h2 Track record
+					p.experience-tag.experience-tag Our clients recommend us
+					p.experience-detail-text We have an enviable list of ASX, private, multinational and public sector clients - all out clients are references
+				div.col-lg-4.experience-container
+					img.img-responsive.center-block(src="../images/icon-benchmark.png")
+					h2 Benchmarks 
+					p.experience-tag Metrics from over 50 companies
+					p.experience-detail-text We sponsor the Australian Benchmark Initiative, the leading source of Finance benchmarks and better practice
+				div.col-lg-4.experience-container
+					img.img-responsive.center-block(src="../images/icon-follow.png")
+					h2 Follow through 
+					p.experience-tag We implement our recommendations
+					p.experience-detail-text We often lead the implementation of the recommendations that we make
+	div.section-benchmark.container-fluid
+		div.row
+			div.col-lg-2
+				img.pull-right(src="../images/icon-benchmark-initiative.png")
+			div.col-lg-7
+				h1 Australian Benchmark Initiative
+				p optim2 is a sponsor of the Australian Benchmark Initiative, which aims to build a set of finance benchmarks, and facilitate the sharing of better finance practice. Participation is free, and you will receive reports comparing your performance against other organisations.
+			div.col-lg-3
+				a.btn.btn-blue.btn-lg Learn more &raquo; 
