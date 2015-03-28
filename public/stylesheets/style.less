@@ -11,6 +11,15 @@
 @color-blue-border : #00adee;
 @color-white : #ffffff;
 
+/**
+*
+* Font Family
+*
+**/
+
+@font-family-secondary : 'Source Sans Pro', sans-serif;
+
+
 
 /**
 *
@@ -18,12 +27,21 @@
 *
 **/
 
+.test {
+	text-align: left !important;
+}
+
 .word {
 	color: @color-blue;
 }
 
 .two {
 	color: @color-light-blue;
+}
+
+.figure-margin {
+	margin-top: 30px;
+	margin-bottom: 50px;
 }
 
 .color-gradient {
@@ -45,7 +63,6 @@
 	text-transform: uppercase;
 	letter-spacing: 2px;
 	padding: 14px 20px;
-
 	transition: background .5s;
 
 	&:hover {
@@ -75,18 +92,17 @@
 	color: @color-white;
 }
 
-
-
-#navigation{
+#test {
 	background: @color-white;
-	border-bottom: 1px solid @color-blue-border;
 	margin-bottom: 0;
+	border-radius: 0;
+	border-bottom: 1px solid @color-blue-border;
 }
 
 .header-logo {
 	background: url("../images/optim2-logo.png") no-repeat;
 	position: relative;
-	top: 6px;
+	top: 10px;
 	width: 162px;
 	height: 38px;
 	display: block;
@@ -95,7 +111,7 @@
 	overflow: hidden;
 }
 
-/*==========  Homepage  ==========*/
+/*==========  Jumbotron  ==========*/
 
 
 .jumbotron#homepage {
@@ -109,6 +125,7 @@
 		text-transform: uppercase;
 		letter-spacing: 1px;
 
+
 		span {
 			text-transform: none;
 		}
@@ -120,6 +137,7 @@
 		font-size: 22pt;
 		line-height: 27pt;
 		text-shadow: 1px 2px 3px #5f5d80;
+		font-family: @font-family-secondary;
 	}
 
 	.btn-primary{
@@ -136,30 +154,205 @@
 			color: @color-light-blue;
 		}
 	}
-
 }
+
+.jumbotron#service-assess-finance {
+	background: url("../images/bg-service-assess-finance.jpg") no-repeat 0 80%;
+	background-size: cover;
+	height: 500px;
+
+	h1 {
+		color: @color-light-blue;
+		font-size: 12pt;
+		text-transform: uppercase;
+		letter-spacing: 1px;
+
+		span {
+			text-transform: none;
+		}
+	}
+
+	h2 {
+		color: @color-white;
+		font-weight: normal;
+		font-size: 22pt;
+		line-height: 27pt;
+		text-shadow: 1px 2px 3px #5f5d80;
+		font-family: @font-family-secondary;
+	}
+
+	.btn-primary{
+		margin-top: 24px;
+	}
+
+	.btn-secondary {
+		margin-top: 24px;
+		transition: background .2s;
+
+		&:hover {
+			background: @color-white;
+			color: @color-light-blue;
+		}
+	}
+}
+
+
+.jumbotron#service-measuring-performance{
+	background: url("../images/bg-service-measuring-performance.jpg") no-repeat 0 40%;
+	background-size: cover;
+	height: 500px;
+
+	h1 {
+		color: @color-light-blue;
+		font-size: 12pt;
+		text-transform: uppercase;
+		letter-spacing: 1px;
+
+		span {
+			text-transform: none;
+		}
+	}
+
+	h2 {
+		color: @color-white;
+		font-weight: normal;
+		font-size: 22pt;
+		line-height: 27pt;
+		text-shadow: 1px 2px 3px #5f5d80;
+		font-family: @font-family-secondary;
+	}
+
+	.btn-primary{
+		margin-top: 24px;
+	}
+
+	.btn-secondary {
+		margin-top: 24px;
+		transition: background .2s;
+
+		&:hover {
+			background: @color-white;
+			color: @color-light-blue;
+		}
+	}
+}
+
+.jumbotron#service-improving-processes{
+	background: url("../images/bg-service-improving-processes.jpg") no-repeat 0 40%;
+	background-size: cover;
+	height: 500px;
+
+	h1 {
+		color: @color-light-blue;
+		font-size: 12pt;
+		text-transform: uppercase;
+		letter-spacing: 1px;
+
+		span {
+			text-transform: none;
+		}
+	}
+
+	h2 {
+		color: @color-white;
+		font-weight: normal;
+		font-size: 22pt;
+		line-height: 27pt;
+		text-shadow: 1px 2px 3px #5f5d80;
+		font-family: @font-family-secondary;
+	}
+
+	.btn-primary{
+		margin-top: 24px;
+	}
+
+	.btn-secondary {
+		margin-top: 24px;
+		transition: background .2s;
+
+		&:hover {
+			background: @color-white;
+			color: @color-light-blue;
+		}
+	}
+}
+
+.jumbotron#contact-us{
+	background: url("../images/bg-contact-us.jpg") no-repeat 0 70%;
+	background-size: cover;
+	height: 500px;
+
+	h1 {
+		color: @color-light-blue;
+		font-size: 12pt;
+		text-transform: uppercase;
+		letter-spacing: 1px;
+
+		span {
+			text-transform: none;
+		}
+	}
+
+	h2 {
+		color: @color-white;
+		font-weight: normal;
+		font-size: 22pt;
+		line-height: 27pt;
+		text-shadow: 1px 2px 3px #5f5d80;
+		font-family: @font-family-secondary;
+	}
+
+	.btn-primary{
+		margin-top: 24px;
+	}
+
+	.btn-secondary {
+		margin-top: 24px;
+		transition: background .2s;
+
+		&:hover {
+			background: @color-white;
+			color: @color-light-blue;
+		}
+	}
+}
+
+
+
 
 @media (min-width: @screen-lg-min) { 
 	.jumbotron#homepage {
 		background: url("../images/bg-homepage.jpg") no-repeat 0 40%;
 		background-size: cover;
-
-
 	}
 }
+
+/*==========  Homepage  ==========*/
+
 
 .section-header {
 	font-size: 18pt;
 	color: @color-blue;
 	text-transform: uppercase;
 	text-align: center;
-	padding: 0 0 30px 0;
+	padding: 0 0 10px 0;
 	margin: 0;
+	font-family: @font-family-secondary;
 	// border-bottom: 1px solid #e0e0e0;
 
 	span {
 		text-transform: none;
 	}
+}
+
+.section-header-test {
+	font-size: 18pt;
+	color: @color-blue;
+	text-transform: uppercase;
+	text-align: left;
+	padding: 0 0 10px 0;
+	margin: 0;
+	font-family: @font-family-secondary;
 }
 
 .services-container {
@@ -180,13 +373,86 @@
 			line-height: 17pt;
 		}
 	}
-
 }
+
+/*==========  Assess Finance  ==========*/
+
+
+.service-header-container {
+	h1 {
+		text-align: center;
+		color: @color-blue;
+		font-size: 18pt;
+		font-family: @font-family-secondary;
+	}
+	p {
+		color: #647484;
+		font-size: 12pt;
+		text-align: center;
+		line-height: 19pt;
+		padding-bottom: 30px;
+	}
+}
+
+
+
+
 
 .divider {
 	height: 10px;
 	width: 100%;
 	.color-gradient;
+}
+
+/*==========  Improve Processes  ==========*/
+
+.improve-processes-container {
+	padding-top: 100px;
+	padding-bottom: 100px;
+
+	.improve-header {
+		padding-left: 30px;
+
+		img {
+			margin-right: 10px;
+		}
+	}
+
+	ul {
+		margin-left: 20px;
+		margin-top: 10px;
+
+		li{
+			color: #647484;
+			margin: 5px 0;
+		}
+	}
+}
+
+.improve-shared-services {
+	p {
+		color: #647484;
+		font-size: 12pt;
+		text-align: center;
+		line-height: 19pt;
+		padding-bottom: 30px;
+	}
+}
+
+.process-detail {
+	h2 {
+		font-family: @font-family-secondary;
+		font-size: 16pt;
+		color: @color-light-blue;
+
+	}
+}
+
+/*==========  Measuring performance  ==========*/
+
+.measuring-performance-container {
+	margin-top: 60px;
+	margin-bottom: 60px;
 }
 
 /*==========  Benchmark  ==========*/
@@ -195,6 +461,7 @@
 	background: #eefaff;
 	padding-top: 30px;
 	padding-bottom: 30px;
+	border-top: 1px solid darken(#eefaff, 10%);
 
 	img {
 		margin-top: 20px;
@@ -235,6 +502,8 @@
 
 		h2 {
 			margin-bottom: 2px;
+			font-family: @font-family-secondary;
+			font-weight: bold;
 		}
 
 	}
@@ -275,5 +544,96 @@
 	.footer-number {
 		color: @color-blue-border;
 	}
+}
+
+#contact-us-form {
+	input[type="text"]{
+		background: #ededed;
+		border-radius: 0;
+		border: none;
+		margin: 10px 0;
+		padding-top: 20px;
+		padding-bottom: 20px;
+
+		&:focus {
+			border: 1px solid @color-light-blue;
+		}
+	}
+
+	textarea{
+		background: #ededed;
+		border-radius: 0;
+		border: none;
+		margin: 10px 0;
+		padding-top: 20px;
+		padding-bottom: 20px;
+
+		&:focus {
+			border: 1px solid @color-light-blue;
+		}
+	}
+
+	.contact-submit {
+		background: @color-light-blue;
+		border: none;
+		padding: 10px 35px;
+		color: @color-white;
+		font-size: 12pt;
+		transition: background .2s;
+		border-radius: 4px;
+
+		&:hover {
+			background: @color-blue;
+		}
+	}
+}
+
+.contact-header {
+	font-size: 18pt;
+	color: @color-blue;
+	text-align: left;
+	padding: 0 0 10px 0;
+	margin: 0;
+	font-family: @font-family-secondary;
+}
+
+.map-container {
+	h3 {
+		font-size: 13pt;
+		color: @color-blue;
+	}
+
+	p {
+		color: #647484;
+		padding: 0;
+		margin: 0;
+	}
+
+	.contact-number {
+		color: @color-light-blue;
+		margin-bottom: 30px;
+	}
+}
+
+#map {
+	width: 100%;
+	height: 300px;
+	margin-bottom: 50px;
+}
+
+.message {
+	background: #F2DEDE;
+	display: inline-block;
+	color: #a94442;
+	padding: 3px 5px;
+	border: 1px solid #f2dede;
+}
+
+.success {
+  color: #3c763d;
+  background-color: #dff0d8;
+  border-color: #d6e9c6;
+  padding: 10px;
+  display: none;
 }
 

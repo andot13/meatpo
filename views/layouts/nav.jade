@@ -1,4 +1,4 @@
-nav#navigation.navbar.navbar-default(role="navigation")
+nav#test.navbar.navbar-default(role="navigation")
 	div.container
 		div.navbar-header
 			button.navbar-toggle(type="button", data-toggle="collapse", data-target=".navbar-collapse")
@@ -11,8 +11,19 @@ nav#navigation.navbar.navbar-default(role="navigation")
 			ul.nav.navbar-nav.navbar-right
 				li
 					a(href="/about-us") About us 
-				li
-					a(href="/what-we-do")  What we do
+				li.dropdown
+					a.dropdown-toggle(href='#', data-toggle='dropdown')
+						|  What we do 
+						span.caret
+					ul.dropdown-menu(role='menu')
+						li
+							a(href="assessing-finance") Assessing Finance
+						li
+							a(href="improving-processes") Improving Processes
+						li
+							a(href="measuring-performance") Measuring Performance
+						li
+							a(href="") Accounting BPO 
 				li
 					a(href="/insights") Insights
 				li

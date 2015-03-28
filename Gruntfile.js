@@ -36,7 +36,7 @@ module.exports = function(grunt){
 		watch: {
 			image: {
 				files: ['public/images/*.jpg'],
-				tasks: ['imageoptim:optimise'],
+				// tasks: ['imageoptim:optimise'],
 				options: {
 				  spawn: false,
 				}
@@ -59,7 +59,7 @@ module.exports = function(grunt){
 
 	grunt.loadNpmTasks('grunt-contrib-less');
 	grunt.loadNpmTasks('grunt-contrib-watch');
-	grunt.loadNpmTasks('grunt-imageoptim');
+	// grunt.loadNpmTasks('grunt-imageoptim');
 
 
 	grunt.registerTask('default', ['watch']);
