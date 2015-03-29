@@ -8,6 +8,11 @@ router.get('/', function(req, res) {
 	res.render('index', { title: 'Express' });
 });
 
+router.get('/optim2-difference', function(req, res) {
+	res.render('optim2-difference', { title: 'Express' });
+});
+
+
 router.get('/assessing-finance', function(req, res) {
 	res.render('assessing-finance', { title: 'Express' });
 });

@@ -9,8 +9,15 @@ nav#test.navbar.navbar-default(role="navigation")
 			a.header-logo.navbar-brand(href="/") optim2 
 		div.navbar-collapse.collapse
 			ul.nav.navbar-nav.navbar-right
-				li
-					a(href="/about-us") About us 
+				li.dropdown
+					a.dropdown-toggle(href='#', data-toggle='dropdown')
+						| About us 
+						span.caret
+					ul.dropdown-menu(role='menu')
+						li
+							a(href="optim2-difference") optim2 difference 
+						li
+							a(href="improving-processes") Careers
 				li.dropdown
 					a.dropdown-toggle(href='#', data-toggle='dropdown')
 						|  What we do 
