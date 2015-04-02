@@ -444,11 +444,29 @@
   font-size: 12pt;
   padding-bottom: 20px;
 }
+.finance-benchmark-text h3 img {
+  margin-right: 5px;
+}
 .finance-benchmark-text ul {
   padding: 30px 40px;
 }
 .finance-benchmark-text ul li {
   color: #647484;
+}
+/*==========  Whitepapers  ==========*/
+.whitepapers-text h3 {
+  color: #262262;
+  font-size: 12pt;
+}
+.whitepapers-text ul li {
+  color: #647484;
+}
+.whitepapers-text a {
+  color: #00aeef;
+}
+.whitepapers-text img {
+  margin-right: 5px;
+  margin-top: -5px;
 }
 /*==========  Benchmark  ==========*/
 .section-benchmark {

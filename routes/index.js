@@ -32,6 +32,10 @@ router.get('/finance-benchmarks', function(req, res) {
 	res.render('finance-benchmarks', { title: 'Express' });
 });
 
+router.get('/whitepapers', function(req, res) {
+	res.render('whitepapers', { title: 'Express' });
+});
+
 router.get('/contact', function(req, res) {
 	res.render('contact', { title: 'Express' });
 });
