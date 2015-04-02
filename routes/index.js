@@ -12,6 +12,9 @@ router.get('/optim2-difference', function(req, res) {
 	res.render('optim2-difference', { title: 'Express' });
 });
 
+router.get('/careers', function(req, res) {
+	res.render('careers', { title: 'Express' });
+});
 
 router.get('/assessing-finance', function(req, res) {
 	res.render('assessing-finance', { title: 'Express' });
@@ -23,6 +26,10 @@ router.get('/improving-processes', function(req, res) {
 
 router.get('/measuring-performance', function(req, res) {
 	res.render('measuring-performance', { title: 'Express' });
+});
+
+router.get('/finance-benchmarks', function(req, res) {
+	res.render('finance-benchmarks', { title: 'Express' });
 });
 
 router.get('/contact', function(req, res) {

@@ -90,16 +90,27 @@
   padding: 14px 20px;
   color: #ffffff;
 }
-#test {
+#navigation {
   background: #ffffff;
   margin-bottom: 0;
   border-radius: 0;
   border-bottom: 1px solid #00adee;
 }
+.navbar-nav li > a {
+  color: #00aeef !important;
+  font-weight: bold;
+  font-size: 10pt;
+}
+.navbar-nav ul > li > a {
+  color: #262262 !important;
+  font-weight: normal;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
 .header-logo {
   background: url("../images/optim2-logo.png") no-repeat;
   position: relative;
-  top: 10px;
+  top: 6px;
   width: 162px;
   height: 38px;
   display: block;
@@ -274,6 +285,39 @@
   background: #ffffff;
   color: #00aeef;
 }
+.jumbotron#careers {
+  background: url("../images/bg-careers.jpg") no-repeat 0 70%;
+  background-size: cover;
+  height: 500px;
+}
+.jumbotron#careers h1 {
+  color: #00aeef;
+  font-size: 12pt;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+.jumbotron#careers h1 span {
+  text-transform: none;
+}
+.jumbotron#careers h2 {
+  color: #ffffff;
+  font-weight: normal;
+  font-size: 22pt;
+  line-height: 27pt;
+  text-shadow: 1px 2px 3px #5f5d80;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+.jumbotron#careers .btn-primary {
+  margin-top: 24px;
+}
+.jumbotron#careers .btn-secondary {
+  margin-top: 24px;
+  transition: background .2s;
+}
+.jumbotron#careers .btn-secondary:hover {
+  background: #ffffff;
+  color: #00aeef;
+}
 @media (min-width: 1200px) {
   .jumbotron#homepage {
     background: url("../images/bg-homepage.jpg") no-repeat 0 40%;
@@ -332,6 +376,11 @@
   line-height: 19pt;
   padding-bottom: 30px;
 }
+.career-header-container h1 {
+  color: #262262;
+  font-size: 18pt;
+  font-family: 'Source Sans Pro', sans-serif;
+}
 .divider {
   height: 10px;
   width: 100%;
@@ -387,6 +436,19 @@
 .measuring-performance-container {
   margin-top: 60px;
   margin-bottom: 60px;
+}
+/*==========  Finance benchmarks  ==========*/
+.finance-benchmark-text h3 {
+  color: #00aeef;
+  text-align: center;
+  font-size: 12pt;
+  padding-bottom: 20px;
+}
+.finance-benchmark-text ul {
+  padding: 30px 40px;
+}
+.finance-benchmark-text ul li {
+  color: #647484;
 }
 /*==========  Benchmark  ==========*/
 .section-benchmark {
@@ -455,6 +517,14 @@
   float: left;
   margin-right: 15px;
   padding: 5px 0 15px 0;
+}
+/*==========  Careers  ==========*/
+.careers-text p {
+  text-align: left;
+  padding-bottom: 15px;
+}
+.career-img {
+  margin: 20px 0;
 }
 /*==========  Footer  ==========*/
 .footer {

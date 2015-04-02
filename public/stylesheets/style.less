@@ -92,17 +92,33 @@
 	color: @color-white;
 }
 
-#test {
+#navigation {
 	background: @color-white;
 	margin-bottom: 0;
 	border-radius: 0;
 	border-bottom: 1px solid @color-blue-border;
+
+}
+
+.navbar-nav {
+	li > a {
+		color: @color-light-blue !important;
+		font-weight: bold;
+		font-size: 10pt;
+	}
+
+	ul > li > a {
+		color: @color-blue !important;
+		font-weight: normal;
+		padding-top: 10px;
+		padding-bottom: 10px;
+	}
 }
 
 .header-logo {
 	background: url("../images/optim2-logo.png") no-repeat;
 	position: relative;
-	top: 10px;
+	top: 6px;
 	width: 162px;
 	height: 38px;
 	display: block;
@@ -317,6 +333,47 @@
 	}
 }
 
+.jumbotron#careers{
+	background: url("../images/bg-careers.jpg") no-repeat 0 70%;
+	background-size: cover;
+	height: 500px;
+
+	h1 {
+		color: @color-light-blue;
+		font-size: 12pt;
+		text-transform: uppercase;
+		letter-spacing: 1px;
+
+		span {
+			text-transform: none;
+		}
+	}
+
+	h2 {
+		color: @color-white;
+		font-weight: normal;
+		font-size: 22pt;
+		line-height: 27pt;
+		text-shadow: 1px 2px 3px #5f5d80;
+		font-family: @font-family-secondary;
+	}
+
+	.btn-primary{
+		margin-top: 24px;
+	}
+
+	.btn-secondary {
+		margin-top: 24px;
+		transition: background .2s;
+
+		&:hover {
+			background: @color-white;
+			color: @color-light-blue;
+		}
+	}
+
+}
+
 
 
 
@@ -394,6 +451,15 @@
 	}
 }
 
+.career-header-container{
+
+	h1 {
+		color: @color-blue;
+		font-size: 18pt;
+		font-family: @font-family-secondary;	
+	}
+}
+
 
 
 
@@ -455,6 +521,24 @@
 	margin-bottom: 60px;
 }
 
+/*==========  Finance benchmarks  ==========*/
+
+
+.finance-benchmark-text {
+	h3 {
+		color: @color-light-blue;
+		text-align: center;
+		font-size: 12pt;
+		padding-bottom: 20px;
+	}
+
+	ul {
+		padding: 30px 40px;
+		li {
+			color: #647484;
+		}
+	}
+}
 /*==========  Benchmark  ==========*/
 
 .section-benchmark {
@@ -540,6 +624,19 @@
 	float: left;
 	margin-right: 15px;
 	padding: 5px 0 15px 0;
+}
+
+/*==========  Careers  ==========*/
+
+.careers-text {
+	p {
+			text-align: left;
+			padding-bottom: 15px;
+	}
+}
+
+.career-img {
+	margin: 20px 0;
 }
 /*==========  Footer  ==========*/
 

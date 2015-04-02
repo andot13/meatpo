@@ -1,4 +1,4 @@
-nav#test.navbar.navbar-default(role="navigation")
+nav#navigation.navbar.navbar-default(role="navigation")
 	div.container
 		div.navbar-header
 			button.navbar-toggle(type="button", data-toggle="collapse", data-target=".navbar-collapse")
@@ -17,7 +17,7 @@ nav#test.navbar.navbar-default(role="navigation")
 						li
 							a(href="optim2-difference") optim2 difference 
 						li
-							a(href="improving-processes") Careers
+							a(href="careers") Careers
 				li.dropdown
 					a.dropdown-toggle(href='#', data-toggle='dropdown')
 						|  What we do 
@@ -30,8 +30,15 @@ nav#test.navbar.navbar-default(role="navigation")
 						li
 							a(href="measuring-performance") Measuring Performance
 						li
-							a(href="") Accounting BPO 
-				li
-					a(href="/insights") Insights
+							a(href="") Accounting BPO
+				li.dropdown
+					a.dropdown-toggle(href='#', data-toggle='dropdown')
+						|  Insights
+						span.caret
+					ul.dropdown-menu(role='menu')
+						li
+							a(href="finance-benchmarks") Finance benchmarks
+						li
+							a(href="whitepapers") Whitepapers
 				li
 					a(href="/contact") Contact
