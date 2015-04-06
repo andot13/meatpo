@@ -45,17 +45,16 @@ router.post('/contact', function(req, res) {
 	var name = req.body.name;
 	var email = req.body.email;
 	var subject = req.body.subject;
-	var message = req.body.message;
+	var postmessage = req.body.message;
 
 	var message = {
-		// "html": "Name: <strong>" + name + "</strong><br>" + "Email address: <strong>"  + email + "</strong>" <br><br><br>" + postMessage ,
-		"html": "hi there",
+		"html": "Name: <strong>" + name + "</strong><br>" + "Email address: <strong>"  + email + "</strong><br><br><br> " + postmessage ,
 		"subject": message,
 		"from_email": email,
 		"from_name": name,
 		"to": [{
 						"email": "andy.aparece@gmail.com",
-						"name": "Andy"
+						"name": "Jamie Mcbrien"
 				}],
 		"headers": {
 				"Reply-To": email
