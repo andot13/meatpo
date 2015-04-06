@@ -53,7 +53,7 @@ router.post('/contact', function(req, res) {
 		"from_email": email,
 		"from_name": name,
 		"to": [{
-						"email": "andy.aparece@gmail.com",
+						"email": "jamie.mcbrien@optim2.com",
 						"name": "Jamie Mcbrien"
 				}],
 		"headers": {
